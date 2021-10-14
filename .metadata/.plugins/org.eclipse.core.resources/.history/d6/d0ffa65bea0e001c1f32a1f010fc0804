@@ -1,0 +1,93 @@
+import java.util.ArrayList;
+
+import com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
+
+public class test {
+	
+	public static boolean checkstring(String s) {
+		sk st= new sk();
+		int len =s.length();
+		char c;
+		for (int i=0;i<len;i++) {
+			c=s.charAt(i);
+
+			if(c=='(' ||c=='{' || c=='[' ) {
+				st.push(c);
+			}
+			else {
+				if(st.at() =='(' && c==')') {
+					st.pop();
+				}
+				else {
+					if(st.at() =='}' && c=='}') {
+						st.pop();
+					}
+					else {
+						if(st.at() ==']' && c==']') {
+							st.pop();
+						}
+						else
+							return false;
+					}
+
+				}
+
+			}
+		}
+		if(st.empty())
+			return true;
+		else
+			return false;
+
+	}
+	
+	
+
+	public static void main(String[] args) {
+
+		
+		String s = "[{()}]";
+		if(checkstring (s)==true)
+			System.out.println("balanced");
+		else
+			System.out.println("not balanced");
+		}
+
+	}
+
+	class sk{
+
+		ArrayList<Character> arr= new ArrayList<Character>();
+
+
+		public boolean push(char c) {	
+			arr.add(c);	
+			//arr.add(i+1, c);
+			return true;
+		}
+
+		public boolean pop() {
+			if(arr.size()>0) {
+				int i=arr.size();
+				arr.remove(i-1);
+				return true;
+			}
+			else 
+				return false;
+		}
+		public char at() {
+			if(arr.size()>0) {
+				int i=arr.size();
+				return arr.get(i);
+			}
+			else 
+				return ' ';
+		}
+		public boolean empty() {
+			if(arr.size()==0)
+				return true;
+			else 
+				return false;
+		}
+	}

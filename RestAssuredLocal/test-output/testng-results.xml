@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-21T11:55:22 IST" name="Default suite" finished-at="2021-09-21T11:55:25 IST" duration-ms="3518">
+    <groups>
+    </groups>
+    <test started-at="2021-09-21T11:55:22 IST" name="Default test" finished-at="2021-09-21T11:55:25 IST" duration-ms="3518">
+      <class name="Testlocal">
+        <test-method signature="TC_get02()[pri:0, instance:Testlocal@5ccddd20]" started-at="2021-09-21T11:55:22 IST" name="TC_get02" finished-at="2021-09-21T11:55:25 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_get02 -->
+      </class> <!-- Testlocal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

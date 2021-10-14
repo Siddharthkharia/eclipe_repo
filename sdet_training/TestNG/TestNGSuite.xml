@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter"></listener> 
+		</listeners> -->
+
+	<test name="Check Course" enabled="true">
+		<classes>
+			<class name="com.training.tests.checkCourse"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="https://courses.ultimateqa.com/users/sign_in"></parameter>
+		</classes>
+	</test>
+</suite> 

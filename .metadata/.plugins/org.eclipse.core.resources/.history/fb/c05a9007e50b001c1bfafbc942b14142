@@ -1,0 +1,33 @@
+
+public class Tst {
+
+	private static Character character;
+	private static char arrs[];
+	private static char arrs2[];
+
+	public static void main(String[] args) {
+		arrs2 = null;
+		char c=' ';
+		String s="My Name is Siddharth";
+		
+		for(int i=0;i<=s.length()-1;i++) {
+			
+			c=s.charAt(i);			
+			if(c !=' ') {
+				arrs2[i]=c;
+				break;
+			}
+			else {
+				for(int j=arrs2.length-1;j>=0;j--) {
+					System.out.print(arrs2[j]);
+				}
+				
+			}
+			
+			
+		}
+		
+
+	}
+
+}

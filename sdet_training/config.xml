@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+	<configuration>
+		<encoding>UTF-8</encoding>
+		<protocol>https</protocol>
+		<theme>dark</theme>
+		<documentTitle>Automation Report</documentTitle>
+		<reportName>Amdocs Automation | Test Automation Report</reportName>
+		<reportHeadline></reportHeadline>
+		<dateFormat>yyyy-MM-dd</dateFormat>
+		<timeFormat>HH:mm:ss</timeFormat>
+		<scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+		</scripts>
+
+		<!-- custom styles -->
+		<styles>
+            <![CDATA[
+                
+            ]]>
+		</styles>
+	</configuration>
+</extentreports>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;UBSTest.java&apos; to &apos;RestAssuredTest/src/test/java/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;testProject&apos;&#x0D;&#x0A;- Destination element: &apos;RestAssuredTest/src/test/java/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;testProject.UBSTest.java&apos;" description="Copy compilation unit" destination="=RestAssuredTest/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;testProject{UBSTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1634084558481" units="1" version="1.0"/>
+</session>

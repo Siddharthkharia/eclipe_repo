@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T14:39:30 IST" name="Default suite" finished-at="2021-09-24T14:39:35 IST" duration-ms="5379">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T14:39:30 IST" name="Default test" finished-at="2021-09-24T14:39:35 IST" duration-ms="5379">
+      <class name="TC_get">
+        <test-method signature="tc_05()[pri:0, instance:TC_get@4df50bcc]" started-at="2021-09-24T14:39:30 IST" name="tc_05" finished-at="2021-09-24T14:39:35 IST" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_05 -->
+      </class> <!-- TC_get -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+
+
+public class test {
+
+	public static void main(String[] args) {
+
+		sk s= new sk();
+		s.push('a');
+
+		s.push('b');
+		System.out.println(s);
+
+		//s.pop();
+
+	}
+
+}
+
+ class sk{
+
+	ArrayList<Character> arr;
+	//int i=arr.
+
+	public boolean push(char c) {	
+		arr.add(c);
+		//arr.add(i+1, c);
+		return true;
+	}
+
+	public boolean pop() {
+		if(arr.size()>0) {
+			int i=arr.size()-1;
+			arr.remove(i);
+			return true;
+		}
+		else 
+			return false;
+	}	
+}

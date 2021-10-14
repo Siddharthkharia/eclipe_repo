@@ -1,0 +1,49 @@
+import java.util.ArrayList;
+
+import com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
+
+public class test {
+
+	public static void main(String[] args) {
+
+		sk s= new sk();
+		s.push('a');
+
+		s.push('b');
+		
+		System.out.println(s.arr);
+
+		s.pop();
+
+	}
+
+}
+
+ class sk{
+
+	ArrayList<Character> arr= new ArrayList<Character>();
+	int i=arr.size()-1;
+	
+	public boolean push(char c) {	
+		arr.add(c);	
+		//arr.add(i+1, c);
+		return true;
+	}
+
+	public boolean pop() {
+		if(arr.size()>0) {
+			
+			arr.remove(i);
+			return true;
+		}
+		else 
+			return false;
+	}
+	public void prnt() {
+		while(i<=0) {
+			System.out.println(arr.get(i));
+			i--;
+		}
+	}
+}

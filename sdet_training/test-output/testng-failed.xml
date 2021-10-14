@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Check Course(failed)">
+    <parameter name="AppUrl" value="https://courses.ultimateqa.com/users/sign_in"/>
+    <parameter name="BrowserToOpen" value="chrome"/>
+    <classes>
+      <class name="com.training.tests.checkCourse">
+        <methods>
+          <include name="validation"/>
+          <include name="afterSuite"/>
+          <include name="automationSetup"/>
+          <include name="BeforeSuite"/>
+          <include name="automationTeardown"/>
+        </methods>
+      </class> <!-- com.training.tests.checkCourse -->
+    </classes>
+  </test> <!-- Check Course(failed) -->
+</suite> <!-- Failed suite [Suite] -->

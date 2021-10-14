@@ -1,0 +1,30 @@
+
+public class Tst {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char arr[]=null;
+		char c=(Character) null;
+		String s="My Name is Siddharth";
+		
+		for(int i=0;i<=s.length()-1;i++) {
+			
+			c=s.charAt(i);			
+			if(c !=' ') {
+				arr[i]=c;
+				break;
+			}
+			else {
+				for(int j=arr.length-1;j>=0;j--) {
+					System.out.print(arr[j]);
+				}
+				
+			}
+			
+			
+		}
+		
+
+	}
+
+}

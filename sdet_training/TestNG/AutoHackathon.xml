@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter"></listener> 
+		</listeners> -->
+
+	<test name="LaunchApplication" enabled="false">
+		<classes>
+			<class name="app.tests.TestCase1"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://sunik01v/login"></parameter>
+		</classes>
+	</test>
+	
+	<test name="CreateNewCustomerLead" enabled="false">
+		<classes>
+			<class name="app.tests.TestCase2"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://sunik01v/login"></parameter>
+		</classes>
+	</test>
+	
+	<test name="CreateNewCustomerLead" enabled="true">
+		<classes>
+			<class name="AutoHackathon.Gui.Com.check"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://sunik01v/login"></parameter>
+		</classes>
+	</test>
+	
+	<test name="HackathonTest2" enabled="false">
+		<classes>
+			<class name="AutoHackathon.Tests.TC3"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="https://en.wikipedia.org/wiki/Main_Page"></parameter>
+		</classes>
+	</test>
+</suite> 
