@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/siddharthkharia/eclipse-workspace/eclipse_repo"/>
 			<item value="C:\Users\siddh\eclipse-workspace\sdet_training\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -18,6 +19,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -48,6 +50,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="HackerRank"/>
 			<item value="RestAssuredLocal"/>
 			<item value="RestAssuredTest"/>
 			<item value="GeeksForGeeks"/>
@@ -56,6 +59,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HackerRank"/>
 			<item value="RestAssuredLocal"/>
 			<item value="RestAssuredTest"/>
 			<item value="GeeksForGeeks"/>

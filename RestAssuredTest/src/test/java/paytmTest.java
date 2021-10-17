@@ -14,7 +14,7 @@ public class paytmTest {
 	JSONObject job = new JSONObject();
 //	
 	RequestSpecification req = RestAssured.given();
-		req.
+		
 	}
 	
 

@@ -7,7 +7,7 @@ public class testerr {
 		
 		//Scanner sc = new Scanner(System.in)
 		
-		int n = 0;
+		int n = 153;
 		int j=n;
 		int sum=0;
 		
