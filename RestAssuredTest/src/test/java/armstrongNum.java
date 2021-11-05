@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class testerr {
+public class armstrongNum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

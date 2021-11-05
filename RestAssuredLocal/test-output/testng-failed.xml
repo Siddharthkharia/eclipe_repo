@@ -5,7 +5,7 @@
     <classes>
       <class name="Testlocal">
         <methods>
-          <include name="TC_get02"/>
+          <include name="TC_put03"/>
         </methods>
       </class> <!-- Testlocal -->
     </classes>

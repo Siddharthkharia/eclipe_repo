@@ -38,6 +38,11 @@ class Result {
     }
         return counter;
 }
+    
+    
+    public static void tester() {
+    	
+    }
 }
 
 public class Solution {

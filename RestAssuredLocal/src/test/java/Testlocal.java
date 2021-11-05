@@ -9,6 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.internal.path.json.mapping.JsonObjectDeserializer;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -194,5 +195,17 @@ public class Testlocal {
 		statusCode(200);
 
 		given().get("/user").then().log().body(true);	
+	}
+	
+	@Test
+	void Tc_001() {
+		baseURI ="http://localhost:3000/user";
+
+		ArrayList<String> arr = new ArrayList<String>();
+		arr= (ArrayList<String>) given().param("user.id",1).
+				when().get().then().extract().body();
+		System.out.println(arr);
+		
+		
 	}
 }

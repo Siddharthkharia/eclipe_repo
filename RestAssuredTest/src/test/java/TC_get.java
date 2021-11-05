@@ -68,6 +68,7 @@ public class TC_get {
 				given().param("data.id", 7).get("https://reqres.in/api/users?page=2").then();
 		System.out.println();
 	}
+	
 	@Test
 	void TC_07() {
 		String[] st =given().get("https://reqres.in/api/users?page=2").then().extract().path("id");
