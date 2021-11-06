@@ -1,6 +1,6 @@
 import java.sql.*;
 import java.util.*;
-public class paytest {
+public class dbtest {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		// TODO Auto-generated method stub

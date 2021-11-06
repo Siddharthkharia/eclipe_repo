@@ -52,6 +52,7 @@
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="org.apache.commons.lang3.math.NumberUtils"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.formula.functions.Count"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.math.NumberUtils"/>
 </qualifiedTypeNameHistroy>

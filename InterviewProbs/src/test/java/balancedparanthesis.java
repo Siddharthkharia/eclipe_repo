@@ -3,7 +3,7 @@ import java.util.ArrayList;
 //import com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 
-public class test {
+public class balancedparanthesis {
 	
 	public static boolean checkstring(String s) {
 		sk st= new sk();
