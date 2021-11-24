@@ -50,6 +50,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="InterviewProbs"/>
 			<item value="HackerRank"/>
 			<item value="RestAssuredLocal"/>
 			<item value="RestAssuredTest"/>
@@ -59,6 +60,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="InterviewProbs"/>
 			<item value="HackerRank"/>
 			<item value="RestAssuredLocal"/>
 			<item value="RestAssuredTest"/>
