@@ -74,5 +74,14 @@ public class TC_get {
 		String[] st =given().get("https://reqres.in/api/users?page=2").then().extract().path("id");
 		System.out.println(st);
 	}
+	
+	@Test
+	void TC_009() {
+		ArrayList<String> str = new ArrayList<String>();
+		
+		str= given().get("https://reqres.in/api/users?page=2").then().extract().path("email");
+		
+		System.out.println(str.size());
+	}
 
 }
