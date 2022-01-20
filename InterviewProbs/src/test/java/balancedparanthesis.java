@@ -50,7 +50,7 @@ public class balancedparanthesis {
 	public static void main(String[] args) {
 
 		
-		String s = "[{()}]";
+		String s = "}";
 		if(checkstring (s)==true)
 			System.out.println("balanced");
 		else
