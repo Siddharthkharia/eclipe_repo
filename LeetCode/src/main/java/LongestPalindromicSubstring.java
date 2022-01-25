@@ -11,7 +11,7 @@ public class LongestPalindromicSubstring {
 
 		String s="abbad";
 		
-	//System.out.println(longestPalindrome(s));
+		//System.out.println(longestPalindrome(s));
 		System.out.println(test(s));
 	
 	}
@@ -70,7 +70,7 @@ static String res=" ";
 				else {
 					if(palindrome(s)) {
 						map.put(s, true);
-						res= s.length()>res.length() ?s:res;
+						res= s.length()>res.length() ? s:res;
 						max=res.length();
 					}
 					else {
