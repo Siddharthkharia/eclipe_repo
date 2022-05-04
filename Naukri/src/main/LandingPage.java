@@ -54,8 +54,8 @@ public class LandingPage {
 		oDriver.findElement(By.xpath("//span[@id='block']")).click();
 
 		oDriver.findElement(By.xpath("//div[@class='drawer-wrapper']")).click();
-		oDriver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("siddharthkharia@gmail.com");
-		oDriver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("SidNaukri12#");
+		oDriver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("####EMAIL_NEEDED####");
+		oDriver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("###PasswordNeeded####");
 
 		oDriver.findElement(By.xpath("//button[@class='btn-primary loginButton']")).click();
 
